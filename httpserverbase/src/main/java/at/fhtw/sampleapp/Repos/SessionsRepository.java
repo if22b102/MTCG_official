@@ -6,7 +6,7 @@ import at.fhtw.sampleapp.model.UserStore;
 
 public class SessionsRepository {
     private UnitOfWork unitOfWork;
-    private UserStore userStore = UserStore.getInstance(); // Verwende den zentralen Speicher
+    private UserStore userStore = UserStore.getInstance(); 
 
     public SessionsRepository(UnitOfWork unitOfWork)
     {

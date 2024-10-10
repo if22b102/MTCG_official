@@ -24,7 +24,6 @@ public class Card {
             return Card.Elements.Normal;
         }
         else {
-            //throw new IllegalArgumentException("Unknown card name: " + cardName);
             return Card.Elements.Neutral;
         }
     }
